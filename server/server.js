@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 
 app.get('/api/notes', (req, res) => {
-  res.send("you got 10 notes")
+  res.send("You got 8 notes")
 })
 
 const PORT = 5001
